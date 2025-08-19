@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RK Gift Palace</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+    header { background: darkblue; color: white; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; }
+    .product {
+      background: white; border: 1px solid #ddd; border-radius: 12px;
+      margin: 10px; padding: 15px; width: 220px; text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img { width: 100%; border-radius: 10px; }
+    .btn {
+      background: darkblue; color: white; padding: 8px 12px;
+      border: none; border-radius: 6px; cursor: pointer; margin-top: 10px;
+    }
+    footer { text-align: center; padding: 15px; background: #222; color: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎁 RK Gift Palace</h1>
+    <p>Welcome! Beautiful gifts at best prices 💝</p>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Gift Item 1">
+      <h3>Gift Item 1</h3>
+      <p>₹499</p>
+      <a href="https://wa.me/919812671680?text=Hello%20RK%20Gift%20Palace!%20I%20want%20to%20buy%20Gift%20Item%201%20for%20₹499" target="_blank">
+        <button class="btn">Order on WhatsApp</button>
+      </a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Gift Item 2">
+      <h3>Gift Item 2</h3>
+      <p>₹799</p>
+      <a href="https://wa.me/919812671680?text=Hello%20RK%20Gift%20Palace!%20I%20want%20to%20buy%20Gift%20Item%202%20for%20₹799" target="_blank">
+        <button class="btn">Order on WhatsApp</button>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>📍 RK Gift Palace | Owner: Kamal Yadav</p>
+    <p>📞 Mobile: +91-9812671680 | 📧 Email: kamalyadav0525@gmail.com</p>
+  </footer>
+</body>
+</html>
